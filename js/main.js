@@ -16,4 +16,5 @@ const showHiddenPW = function (loginPass, loginEye) {
     })
 }
 
-showHiddenPW('login-password', 'login-eye');
+showHiddenPW('input-password', 'password-eye');
+showHiddenPW('re-input-password', 're-password-eye');

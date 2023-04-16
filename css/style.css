@@ -88,11 +88,6 @@
     display: grid;
 }
 
-.toan-signup-content {
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2.5rem;
-}
-
 .toan-content,
 .toan-signup-content {
     row-gap: 1.75rem;
@@ -323,26 +318,21 @@
         justify-content: center;
     }
 
-    .toan-form,
+
     .toan-form {
         padding: 4rem 3rem 3.5rem;
         border-radius: 1.5rem;
-    }
-
-    .toan-form {
-        width: 432px;
-    }
-
-    .toan-form {
         width: 576px;
     }
 
-    .login-title,
-    .signup-title {
+    .toan-title {
         font-size: 2rem;
     }
 
-
+    .toan-signup-content {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2.5rem;
+    }
     /* cart */
 
     .cart-container {

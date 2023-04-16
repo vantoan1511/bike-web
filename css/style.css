@@ -1,5 +1,5 @@
 /* google font roboto */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 
 /* css variable */
@@ -10,7 +10,7 @@
     --black-color: #000;
     --light-grey-color: rgb(225, 220, 220);
     /* font */
-    --body-font: 'Poppins', sans-serif;
+    --body-font: 'Roboto', sans-serif;
     --h1-font-size: 1.75rem;
     --normal-font-size: 1rem;
     --small-font-size: .813rem;
@@ -26,54 +26,46 @@
     margin: 0;
 }
 
-body,
-input,
-button {
+.toan-main {
+    color: var(--white-color);
+}
+
+.toan-main,
+.toan-main input,
+.toan-main button {
     font-size: var(--normal-font-size);
     font-family: var(--body-font);
 }
 
-body {
-    color: var(--white-color);
-}
-
-input,
-button {
+.toan-main input,
+.toan-main button {
     border: none;
     outline: none;
 }
 
-a {
-    text-decoration: none;
-}
 
-img {
-    max-width: 100%;
-    height: auto;
+.toan-main a {
+    text-decoration: none;
 }
 
 /* login */
 
-.login,
-.signup {
+.toan-container {
     position: relative;
     height: 100vh;
     display: grid;
     align-items: center;
 }
 
-.login-image {
+.toan-image {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-    /* background-size: cover;
-    background-attachment: fixed; */
 }
 
-.login-form,
-.signup-form {
+.toan-form {
     position: relative;
     background-color: rgba(0, 0, 0, 0.1);
     border: 2px solid var(--white-color);
@@ -83,50 +75,44 @@ img {
     backdrop-filter: blur(5px);
 }
 
-.login-title,
-.signup-title {
+.toan-title {
     text-align: center;
     font-size: var(--h1-font-size);
     font-weight: var(--font-medium);
     margin-bottom: 2rem;
 }
 
-.login-content,
-.signup-content,
-.login-box,
-.signup-box {
+.toan-content,
+.toan-signup-content,
+.toan-box {
     display: grid;
 }
 
-.signup-content {
+.toan-signup-content {
     grid-template-columns: 1fr 1fr;
     column-gap: 2.5rem;
 }
 
-.login-content,
-.signup-content {
+.toan-content,
+.toan-signup-content {
     row-gap: 1.75rem;
     margin-bottom: 1.5rem;
 }
 
-.login-box,
-.signup-box {
+.toan-box {
     grid-template-columns: max-content 1fr;
     align-items: center;
     column-gap: .75rem;
     border-bottom: 2px solid var(--white-color);
 }
 
-.login-icon,
-.signup-icon,
-.login-button-icon,
-.signup-button-icon,
-.password-eye {
+.toan-icon,
+.toan-button-icon,
+.toan-password-eye {
     font-size: 1.25rem;
 }
 
-.login-input,
-.signup-input {
+.toan-input {
     width: 100%;
     padding-block: .8rem;
     background: none;
@@ -135,13 +121,11 @@ img {
     z-index: 1;
 }
 
-.login-box-input,
-.signup-box-input {
+.toan-box-input {
     position: relative;
 }
 
-.login-label,
-.signup-label {
+.toan-label {
     position: absolute;
     left: 0;
     top: 13px;
@@ -149,7 +133,7 @@ img {
     transition: top .3s, font-size .3s;
 }
 
-.password-eye{
+.toan-password-eye {
     position: absolute;
     right: 0;
     top: 14px;
@@ -157,56 +141,47 @@ img {
     cursor: pointer;
 }
 
-.login-box:nth-child(2) input,
-.signup-box:nth-child(4) input,
-.signup-box:nth-child(6) input {
+.toan-box:nth-child(even) input {
     padding-right: 1.8rem;
 }
 
-.login-check,
-.signup-check,
-.login-check-group,
-.signup-check-group {
+.toan-check,
+.toan-check-group {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.login-check,
-.signup-check {
+.toan-check {
     margin-bottom: 1.5rem;
 }
 
-.login-check-label,
-.signup-check-label,
-.login-forgot,
-.login-register {
+.toan-check-label,
+.toan-forgot,
+.toan-register {
     font-size: var(--small-font-size);
 }
 
-.login-check-group,
-.signup-check-group {
+.toan-check-group {
     column-gap: 0.5rem;
 }
 
-.login-check-input,
-.signup-check-input {
+.toan-check-input {
     width: 16px;
     height: 16px;
 }
 
-.login-forgot,
-.signup-license {
+.toan-forgot,
+.toan-license {
     color: var(--white-color);
 }
 
-.login-forgot:hover,
-.signup-license:hover {
+.toan-forgot:hover,
+.toan-license:hover {
     text-decoration: underline;
 }
 
-.login-button,
-.signup-button {
+.toan-button {
     width: 100%;
     padding: 1rem;
     border-radius: .5rem;
@@ -216,81 +191,162 @@ img {
     margin-bottom: 2rem;
 }
 
-.login-button {
+.toan-button {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.login-button-icon {
+.toan-button-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 2px;
 }
 
-.login-button:hover,
-.signup-button:hover {
+.toan-button:hover {
     background-color: var(--light-grey-color)
 }
 
-.login-register,
-.signup-register {
+.toan-register {
     text-align: center;
 }
 
-.login-register a,
-.signup-register a {
+.toan-register a {
     color: var(--white-color);
     font-weight: var(--font-medium);
 }
 
-.login-register a:hover,
-.signup-register a:hover {
+.toan-register a:hover {
     text-decoration: underline;
 }
 
 /* input focus move up label*/
 
-.login-input:focus+.login-label,
-.signup-input:focus+.signup-label {
+.toan-input:focus+.toan-label {
     top: -12px;
     font-size: var(--small-font-size);
 }
 
 /* input focus sticky top label */
 
-.login-input:not(:placeholder-shown).login-input:not(:focus)+.login-label,
-.signup-input:not(:placeholder-shown).signup-input:not(:focus)+.signup-label {
+.toan-input:not(:placeholder-shown).toan-input:not(:focus)+.toan-label {
     top: -12px;
     font-size: var(--small-font-size);
 }
+
+/* cart */
+
+.cart-title {
+    text-align: center;
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 2rem;
+}
+
+.cart {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.cart-container {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--white-color);
+    margin-inline: 2.5rem;
+    padding: 2.5rem 1.5rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+}
+
+.cart-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 1.75rem;
+    row-gap: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.cart-table {
+    text-align: center;
+}
+
+.cart-table td,
+.cart-table th {
+    width: max-content;
+    margin-inline: 1rem;
+}
+
+/* .cart-table table,
+.cart-table td,
+.cart-table th {
+    border: 1px solid white;
+    border-collapse: collapse;
+} */
+
+.cart-table-item,
+.cart-table-purchase {
+    width: 100%;
+    height: 90%;
+}
+
+
+    
+.cart-table-purchase {
+    margin-bottom: 1.5rem;
+}
+
+.cart-purchase-button {
+    width: 50%;
+    padding: .5rem;
+    border-radius: .5rem;
+    background-color: var(--white-color);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.cart-purchase-button:hover {
+    background-color: var(--light-grey-color);
+}
+
+
 
 /* breakpoint */
 
 @media screen and (min-width: 576px) {
 
-    .login,
-    .signup {
+    /* login and signup */
+    .toan-container {
         justify-content: center;
     }
 
-    .login-form,
-    .signup-form {
+    .toan-form,
+    .toan-form {
         padding: 4rem 3rem 3.5rem;
         border-radius: 1.5rem;
     }
 
-    .login-form {
+    .toan-form {
         width: 432px;
     }
 
-    .signup-form {
+    .toan-form {
         width: 576px;
     }
 
     .login-title,
     .signup-title {
         font-size: 2rem;
+    }
+
+
+    /* cart */
+
+    .cart-container {
+        /* justify-content: center; */
+        margin-inline: 5rem;
     }
 }

@@ -22,7 +22,7 @@ showHiddenPW('re-input-password', 're-password-eye');
 // shopping cart
 
 function toLogin() {
-    window.location.href = 'login.html';
+    window.location.href = 'dangnhap.html';
 }
 
 var itemList = {

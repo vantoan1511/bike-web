@@ -26,6 +26,13 @@
     margin: 0;
 }
 
+.toan-body {
+    background-image: url("../img/login-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .toan-main {
     color: var(--white-color);
 }

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ</title>
+    <link href="img/favicon.png" rel="icon">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/main.css">
+    <script src="style/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lienhe.css">
+
+</head>
+
+<body class="toan-body">
+
+    <header>
+
+        <div id="header" class="d-flex align-items-center">
+            <div class="container-fluid  d-flex align-items-center justify-content-lg-around">
+                <h1 class="logo "><a href="Trangchu.html">Xe điện Cần Thơ</a></h1>
+                <nav class="navbar ">
+                    <ul>
+                        <li><a class="nav-link " href="Trangchu.html">Trang chủ</a></li>
+                        <li><a class="nav-link " href="sanpham.html">Sản phẩm</a></li>
+                        <li><a class="nav-link " href="gioithieu.html">Giới thiệu</a></li>
+                        <li><a class="nav-link " href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </nav>
+                <div class="d-flex ">
+                    <a class="nav-link" href="giohang.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="d-lg-flex btn " href="dangnhap.html">Đăng nhập</a>
+                    <a class="d-lg-flex btn" href="dangky.html">Đăng ký</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main class="lienhe">
+        <div class="lienhe-top">
+            <h1>
+                <p class="text-center">LIÊN HỆ</p>
+            </h1>
+            <p class="text-center">Liên hệ trực tiếp<b> Địa chỉ: 123A, Ninh Kiều, Cần Thơ SĐT:84 09099900</b>, Nếu bạn
+                có góp ý, vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu mẫu bên dưới. Xin cám ơn. </p>
+        </div>
+        <div class="gop-y">
+            <!-- <img src="img/lien-he.jpg" alt="background" class="lienhe-image"> -->
+            <form action="" class="lienhe-form">
+                <h1 class="lienhe-title">
+                    <p class="text-center">GÓP Ý</p>
+                </h1>
+                <section>
+                    <div class="hang1">
+                        <div class="lienhe-box">
+                            <span>
+                                <i class="fa-regular fa-user"></i>
+                                <label for="ten" class="lienhe-label">Họ Và Tên</label>
+                            </span>
+                            <div class="lienhe-box-input">
+                                <input required type="text" class="signup-input" placeholder=" " id="ten">
+
+                            </div>
+                        </div>
+
+                        <div class="lienhe-box">
+                            <span>
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <label for="sđt" class="lienhe-label">Di Động</label>
+                            </span>
+                            <div class="lienhe-box-input">
+                                <input required type="text" class="signup-input" placeholder=" " id="sđt">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hang2">
+                        <div class="lienhe-box">
+                            <span>
+                                <i class="fa-regular fa-envelope"></i>
+                                <label for="email" class="lienhe-label">Email</label>
+                            </span>
+                            <div class="lienhe-box-input">
+                                <input required type="email" class="login-input" placeholder=" " id="email">
+                            </div>
+                        </div>
+
+                        <div class="lienhe-box">
+                            <span>
+                                <i class="fa-solid fa-list"></i>
+                                <label class="lienhe-label" for="select" class="login-label">Góp ý về</label>
+                            </span>
+
+                            <div class="select-box">
+                                <select class="select" id="select">
+                                    <option selected>Sản Phẩm/Dịch vụ</option>
+                                    <option value="1">Sản Phẩm,Dịch vụ</option>
+                                    <option value="2">Sản Phẩm</option>
+                                    <option value="3">Dịch vụ</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+                <div class="lienhe-cmt">
+                    <div>
+                        <span>
+                            <i class="fa-regular fa-comments"></i>
+                            <label class="lienhe-label" for="cmt">Nội Dung</label>
+                        </span>
+
+
+                        <div>
+                            <textarea cols=50 rows="7" class="lienhe-box-input-cmt" placeholder="Comments"
+                                id="cmt"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="lienhe-button">
+                    <button>Gửi</button>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="container-fluid flex justify-content-center">
+                <div class="container">
+                    <div class="row">
+                        <!-- Cột 1 : Địa chỉ thông tin liên hệ, mạng xã hội-->
+                        <div class="col-lg-4">
+                            <div class="footer-info">
+                                <h2>Xe điện Cần Thơ</h2>
+                                <p>
+                                    <strong>123A, Ninh Kiều, Cần Thơ</strong> <br>
+                                    <strong>+84 09099900</strong>
+                                </p>
+                                <div class="social-links mt-2">
+                                    <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#" class="google-plus"><i class="fa-brands fa-facebook-messenger"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Cột 2  Giấy phép hoạt động-->
+                        <div class="col-lg-4 footer-links">
+                            <h4>Chứng chỉ hoạt động</h4>
+                            <ul>
+                                <li> <a href="#">Chế bộ bảo hành</a></li>
+                                <li> <a href="#">Giấy phép kinh doanh</a></li>
+                                <li> <a href="#">Chính sách đổi trả</a></li>
+                            </ul>
+                        </div>
+                        <!-- Cột 3:Giờ mở cửa -->
+                        <div class="col-lg-4 footer-links">
+                            <h4>Giờ mở cửa</h4>
+                            <ul>
+                                <li> Thứ 2-Thứ 7: 7AM-20PM</li>
+                                <li> Chủ nhật: 9AM-20PM</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--copy right-->
+            <div class="container-fluid d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-lg-12 copyright">
+                        &copy; Copyright. Design by Hiếu
+                    </div>
+
+                </div>
+                <!-- Trờ về đầu trang -->
+                <div class="  return_top ">
+                    <a href="Trangchu.html"> <img class="footer-top" src="img/top.png" width="80" height="80" alt="">
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

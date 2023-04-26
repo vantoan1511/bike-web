@@ -68,7 +68,7 @@ img {
 .lienhe-box {
     display: grid;
 }
-.select{
+.select-lienhe{
     width: 199px;
     height: 28px;
 }
@@ -89,12 +89,14 @@ img {
   padding: 3px;
   
 }
-button{
+.gui{
     border: #fff;
     width: 100%;
 }
 
 .lienhe-button {
+    border: #fff;
+    width: 100%;
     width: 10%;
     padding: 5px;
     border-radius: 3ps;
@@ -103,13 +105,3 @@ button{
     cursor: pointer;
     margin-left: 45%;
 }
-footer{
-    padding-top: 70px;
-}
-.giohang{
-    margin-top: -20px;
-
-}
- table{
-    margin-top: -150px;
- }

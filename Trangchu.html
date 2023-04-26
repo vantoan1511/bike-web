@@ -10,14 +10,14 @@
     <!-- bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--link css-->
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <script src="style/main.js"></script>
 </head>
 
@@ -26,7 +26,7 @@
     <header>
         <div id="header" class="fixed-top d-flex align-items-center">
             <div class="container-fluid  d-flex align-items-center justify-content-lg-around">
-                <h1 class="logo "><a href="Trangchu.html">Xe điện Cần Thơ</a></h1>
+                <h1 class="logo "><a href="Trangchu.html">Thế giới xe</a></h1>
                 <nav class="navbar ">
                     <ul>
                         <li><a class="nav-link " href="Trangchu.html">Trang chủ</a></li>
@@ -36,24 +36,191 @@
                     </ul>
                 </nav>
                 <div class="d-flex ">
-                    <a class="nav-link" href="giohang.html"><i class="fa fa-shopping-cart"></i></a>
-                    <a class="d-lg-flex btn " href="dangnhap.html" >Đăng nhập</a>
-                    <a class="d-lg-flex btn" href="dangky.html" >Đăng ký</a>
+                    <a href="giohang.html"><i class="fas fa-shopping-cart"></i></a>
+                    <a class="d-lg-flex btn" href="dangnhap.html">Đăng nhập</a>
+                    <a class="d-lg-flex btn" href="dangky.html">Đăng ký</a>
                 </div>
             </div>
         </div>
     </header>
-    
+
     <main>
-        <div class="container flex justify-content-center">
-            <img src="img/tin-tuc-1.jpg" alt="" class="img">
-            <img src="img/tin-tuc-1.jpg" alt="" class="img"> 
-            <img src="img/tin-tuc-1.jpg" alt="" class="img">
+        <!--Phần poster-->
+        <div class="d-inline-block ">
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner-3.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner-1.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner-2.jpg" class="w-100" alt="">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
         </div>
+        </section>
+
+        <section class="icons-container">
+            <div class="icons">
+                <i class="fas fa-home"></i>
+                <div class="content">
+                    <h3>Đa dạng</h3>
+                    <p>thương hiệu xe</p>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-car"></i>
+                <div class="content">
+                    <h3>5000+</h3>
+                    <p>đã bán</p>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-users"></i>
+                <div class="content">
+                    <h3>100+</h3>
+                    <p>Sự kiện mỗi năm</p>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-car"></i>
+                <div class="content">
+                    <h3>1500+</h3>
+                    <p>mẫu xe mới về</p>
+                </div>
+            </div>
+        </section>
+
+
+        <article>
+            <div class="container">
+            <div class="section-title">
+                <h2>Sản phẩm</h2>
+            </div>
+            <section class="introduce">
+                <div class="image">
+                    <img src="img/intro.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h1>Xe máy phân khối lớn</h1>
+                    <p>Các dòng xe mới nhất được nhập về liền tục để phục vụ nhu cầu của khách hàng</p>
+                    <a href=""><button class="btn-xt">Xem thêm</button></a>
+                </div>
+            </section>
+
+            <section>
+
+                <div class="text">
+                    <h1>Phụ kiện </h1>
+                    <p>Đầy đủ các phụ kiện từ bao tay, mũ bảo hiểm, đồ bảo hộ,...</p>
+                    <a href=""><button class="btn-xt">Xem thêm</button></a>
+                </div>
+                <div class="image">
+                    <img src="img/phukien.jpg" alt="">
+                </div>
+            </section>
+
+            <section>
+                <div class="image">
+                    <img src="img/linh kien.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h1>Linh kiện</h1>
+                    <p>Các linh kiện chính hãng từ nhà cung cấp nhằm đạt được công suất tốt nhất cho xe.</p>
+                    <a href=""><button class="btn-xt">Xem thêm</button></a>
+                </div>
+            </section>
+        </div>
+        </article>
+
+
+
+
+        
+        <!--Phần tin tức-->
+        <section>
+            <div class="container main-news section">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Tin tức</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="img/tin-tuc-1.jpg" class="thumb img-tt mb-3">
+                            <h3>
+                                <a href="#">2023 Kawasaki ZX-4R đã chính thức có mặt tại thị trường Đông Nam Á</a>
+                            </h3>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="img-tt mb-1">
+                                        <a href="#"><img class="thumb" src="img/tin-tuc-2.jpg" title="hhhhh"></a>                           
+                                    </div>
+                                    <h3 class="mb-3">
+                                        <a href="#">Harley-Davidson X350 chính thức ra mắt</a>
+                                    </h3>
+
+                                    <div class="img-tt mb-1">
+                                        <img class="thumb" src="img/tin-tuc-3.jpg" width="" height="">
+                                    </div>
+                                    <h3 class="mb-3">
+                                        <a href="#">Lexmoto RSS 125 2023 - mô tô mới lạ</a>
+                                    </h3>
+                                </div>
+                                        <div class="col-lg-6">
+                                            <div class="img-tt image-sm mb-1">
+                                                <img class="thumb" src="img/tin-tuc-4.jpg" width="" height="">
+                                            </div>
+                                            <h3 class="mb-3">
+                                                <a href="#">Peugeot PM-01 thiết kế hiện đại,trẻ trung</a>
+                                            </h3>
+        
+                                            <div class="img-tt image-sm mb-1">
+                                                <img class="thumb" src="img/tin-tuc-5.jpg" width="" height="">
+                                            </div>
+                                            <h3 class="mb-3">
+                                                <a href="#">Royal Enfield INT 650 và GT 650 mang nét thập niên 80</a>
+                                            </h3>
+                                        </div>
+        
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <div class="container-fluid flex justify-content-center">
+        <div class="container-fluid d-flex justify-content-center">
             <div class="container">
                 <div class="row">
                     <!-- Cột 1 : Địa chỉ thông tin liên hệ, mạng xã hội-->
@@ -82,17 +249,19 @@
                         </ul>
                     </div>
                     <!-- Cột 3:Giờ mở cửa -->
-                    <div class="col-lg-4 footer-links">
-                        <h4>Giờ mở cửa</h4>
-                        <ul>
-                            <li> Thứ 2-Thứ 7: 7AM-20PM</li>
-                            <li> Chủ nhật: 9AM-20PM</li>
-                        </ul>
+                    <div class="col-lg-4">
+                        <div class="footer-info">
+                            <h4>Giờ mở cửa</h4>
+                            <ul>
+                                <li> Thứ 2-Thứ 7: 7AM-20PM</li>
+                                <li> Chủ nhật: 9AM-20PM</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-            <!--copy right-->
+        <!--copy right-->
         <div class="container-fluid d-flex justify-content-center">
             <div class="row">
                 <div class="col-lg-12 copyright">
@@ -102,7 +271,7 @@
             </div>
             <!-- Trờ về đầu trang -->
             <div class="  return_top ">
-                <a href="Trangchu.html"> <img class="footer-top" src="img/top.png" width="80" height="80" alt="">
+                <a href="Trangchu.html"> <img class="footer-top" src="img/top.png" width="50" height="50" alt="">
             </div>
         </div>
     </footer>

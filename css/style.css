@@ -6,9 +6,9 @@
 :root {
 
     /* color */
-    --white-color: #fff;
-    --black-color: #000;
-    --light-grey-color: rgb(225, 220, 220);
+    --white-color: #F1F6F9;
+    --black-color: #212A3E;
+    --light-grey-color: #9BA4B5;
     /* font */
     --body-font: 'Roboto', sans-serif;
     --h1-font-size: 1.75rem;

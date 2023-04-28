@@ -10,8 +10,8 @@ header{
 
   #header .logo{
     font-size: 28px;
-    margin: 0;
     padding: 5px 5px;
+    margin:0px;
     line-height: 1;
     font-weight: 300;
     letter-spacing: 1px;

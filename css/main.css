@@ -119,7 +119,8 @@ footer {
 
 /* Định dạng thanh narbar khi hover */
 .navbar a:hover {
-  color: white;
+  color: #9BA4B5;
+  text-decoration: underline;
 }
 
 .section-title h2::after,

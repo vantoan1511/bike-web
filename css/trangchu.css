@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
 a {
     color: #000000;
     text-decoration: none;
@@ -9,7 +12,7 @@ a {
     text-decoration: none;
   }
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Roboto', Helvetica, sans-serif;
     background: #dbd8d8;
     color: #000000;
   }
@@ -42,7 +45,7 @@ body {
     line-height: 5rem;
     font-size: 2rem;
     color: #000000;
-    background: #00ADB5;
+    background: #9BA4B5;
     text-align: center;
     border-radius: 50%;
 }

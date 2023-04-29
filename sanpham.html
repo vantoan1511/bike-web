@@ -16,7 +16,9 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--css link -->
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/trangchu.css">
+
     <script src="style/main.js"></script>
     <style>
         body {
@@ -37,7 +39,6 @@
             font-size: 15px;
             font-style: Arial;
             color: white;
-            background-color: ;
 
         }
 
@@ -59,124 +60,135 @@
 </head>
 
 <body>
-    </header>
-    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="D:/trangchu.html">Trang Chủ</a></li>
-            <li class="breadcrumb-item active" aria-current="page"> Sản Phẩm </li>
-        </ol>
-    </nav>
     <header>
-        <p class="center-left">
-            Lựa Chọn
-            <br> Phong Cách Riêng Của Bạn
-        </p>
+        <div id="header" class="fixed-top d-flex align-items-center">
+            <div class="container-fluid  d-flex align-items-center justify-content-lg-around">
+                <h1 class="logo "><a href="Trangchu.html">Thế giới xe</a></h1>
+                <nav class="navbar ">
+                    <ul>
+                        <li><a class="nav-link " href="Trangchu.html">Trang chủ</a></li>
+                        <li><a class="nav-link " href="sanpham.html">Sản phẩm</a></li>
+                        <li><a class="nav-link " href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </nav>
+                <div class="d-flex align-items-center">
+                    <a href="giohang.html"><i class="fas fa-shopping-cart"></i></a>
+                    <a class="d-lg-flex btn" href="dangnhap.html">Đăng nhập</a>
+                    <a class="d-lg-flex btn" href="dangky.html">Đăng ký</a>
+                </div>
+            </div>
+        </div>
     </header>
-    <div class="center">
-        <h1> Sản Phẩm </h1>
-    </div>
-    <div class="container text-center">
-        <div class="row row-cols-3">
-            <div class="col">
-                <div class="homepage-product-silde-tab col-6">
-                    <figure class="figure">
-                        <img src="img/Xe Rebel Silver.png" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption text-end"></figcaption>
-                    </figure>
-                    <div class="homepage-product-silde-tab">
-                        <p class="homepage-product-silde-tab row-6"> Xe Rebel Silver</p>
-                        <p class="homepage-product-silde-tab row-6"> 125.000.000 Đồng</p>
-                    </div>
-                    <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
-                        <p><a href="Xe Rebel Silver.html" class="link-underline-primary">Xem chi tiết </a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="homepage-product-silde-tab col-6">
-                    <figure class="figure">
-                        <img src="img/Xe NINJA H2 CARBON.png" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption text-end"></figcaption>
-                    </figure>
-                    <div class="homepage-product-silde-tab">
-                        <p class="homepage-product-silde-tab row-6 "> Xe NINJA H2 CARBON </p>
-                        <p class="homepage-product-silde-tab row-6 "> 1.299.000 Đồng</p>
-                    </div>
-                    <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
-                        <p><a href="Xe NINJA H2 CARBON.html" class="link-underline-primary">Xem chi tiết </a></p>
+    <main>
+        <div class="center">
+            <h1> Sản Phẩm </h1>
+        </div>
+        <div class="container text-center">
+            <div class="row row-cols-3">
+                <div class="col">
+                    <div class="homepage-product-silde-tab col-6">
+                        <figure class="figure">
+                            <img src="img/Xe Rebel Silver.png" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-end"></figcaption>
+                        </figure>
+                        <div class="homepage-product-silde-tab">
+                            <p class="homepage-product-silde-tab row-6"> Xe Rebel Silver</p>
+                            <p class="homepage-product-silde-tab row-6"> 125.000.000 Đồng</p>
+                        </div>
+                        <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
+                            <p><a href="Xe Rebel Silver.html" class="link-underline-primary">Xem chi tiết </a></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="homepage-product-silde-tab col-6">
-                    <figure class="figure">
-                        <img src="img/Xe Victory Vegas 8-Ball.png" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption text-end"></figcaption>
-                    </figure>
-                    <div class="homepage-product-silde-tab">
-                        <p class="homepage-product-silde-tab row-6"> Xe Victory Vegas 8-Ball</p>
-                        <p class="homepage-product-silde-tab row-6"> 289.000.000 Đồng</p>
-                    </div>
-                    <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
-                        <p><a href="Xe Victory Vegas 8-Ball.html" class="link-underline-primary">Xem chi tiết </a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="homepage-product-silde-tab col-6">
-                    <figure class="figure">
-                        <img src="img/Xe KTM.png" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption text-end"></figcaption>
-                    </figure>
-                    <div class="homepage-product-silde-tab">
-                        <p class="homepage-product-silde-tab row-6 "> Xe KTM 390</p>
-                        <p class="homepage-product-silde-tab row-6 "> 236.000.000 Đồng</p>
-                    </div>
-                    <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
-                        <p><a href="Xe KTM 390.html" class="link-underline-primary">Xem chi tiết </a></p>
+                <div class="col">
+                    <div class="homepage-product-silde-tab col-6">
+                        <figure class="figure">
+                            <img src="img/Xe NINJA H2 CARBON.png" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-end"></figcaption>
+                        </figure>
+                        <div class="homepage-product-silde-tab">
+                            <p class="homepage-product-silde-tab row-6 "> Xe NINJA H2 CARBON </p>
+                            <p class="homepage-product-silde-tab row-6 "> 1.299.000 Đồng</p>
+                        </div>
+                        <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
+                            <p><a href="Xe NINJA H2 CARBON.html" class="link-underline-primary">Xem chi tiết </a></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="homepage-product-silde-tab col-6">
-                    <figure class="figure">
-                        <img src="img/Xe Ducait SuperleggeraV4.png" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption text-end"></figcaption>
-                    </figure>
-                    <div class="homepage-product-silde-tab">
-                        <p class="homepage-product-silde-tab row-6 "> Xe Ducait SuperleggeraV4 </p>
-                        <p class="homepage-product-silde-tab row-6 "> 3.000.000.000 Đồng</p>
-                    </div>
-                    <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
-                        <p><a href="Xe DucaitSuperleggeraV4.html" class="link-underline-primary">Xem chi tiết </a></p>
+                <div class="col">
+                    <div class="homepage-product-silde-tab col-6">
+                        <figure class="figure">
+                            <img src="img/Xe Victory Vegas 8-Ball.png" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-end"></figcaption>
+                        </figure>
+                        <div class="homepage-product-silde-tab">
+                            <p class="homepage-product-silde-tab row-6"> Xe Victory Vegas 8-Ball</p>
+                            <p class="homepage-product-silde-tab row-6"> 289.000.000 Đồng</p>
+                        </div>
+                        <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
+                            <p><a href="Xe Victory Vegas 8-Ball.html" class="link-underline-primary">Xem chi tiết </a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="homepage-product-silde-tab col-6">
-                    <figure class="figure">
-                        <img src="img/Xe Suzuki GSX 150.png" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption text-end"></figcaption>
-                    </figure>
-                    <div class="homepage-product-silde-tab">
-                        <p class="homepage-product-silde-tab row-6 "> Xe Suzuki GSX R150 </p>
-                        <p class="homepage-product-silde-tab row-6 ">57.000.000 Đồng</p>
+                <div class="col">
+                    <div class="homepage-product-silde-tab col-6">
+                        <figure class="figure">
+                            <img src="img/Xe KTM.png" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-end"></figcaption>
+                        </figure>
+                        <div class="homepage-product-silde-tab">
+                            <p class="homepage-product-silde-tab row-6 "> Xe KTM 390</p>
+                            <p class="homepage-product-silde-tab row-6 "> 236.000.000 Đồng</p>
+                        </div>
+                        <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
+                            <p><a href="Xe KTM 390.html" class="link-underline-primary">Xem chi tiết </a></p>
+                        </div>
                     </div>
-                    <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
-                        <p><a href="Xe Suzuki GSXR 150.html" class="link-underline-primary">Xem chi tiết </a></p>
+                </div>
+                <div class="col">
+                    <div class="homepage-product-silde-tab col-6">
+                        <figure class="figure">
+                            <img src="img/Xe Ducait SuperleggeraV4.png" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-end"></figcaption>
+                        </figure>
+                        <div class="homepage-product-silde-tab">
+                            <p class="homepage-product-silde-tab row-6 "> Xe Ducait SuperleggeraV4 </p>
+                            <p class="homepage-product-silde-tab row-6 "> 3.000.000.000 Đồng</p>
+                        </div>
+                        <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
+                            <p><a href="Xe DucaitSuperleggeraV4.html" class="link-underline-primary">Xem chi tiết </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="homepage-product-silde-tab col-6">
+                        <figure class="figure">
+                            <img src="img/Xe Suzuki GSX 150.png" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-end"></figcaption>
+                        </figure>
+                        <div class="homepage-product-silde-tab">
+                            <p class="homepage-product-silde-tab row-6 "> Xe Suzuki GSX R150 </p>
+                            <p class="homepage-product-silde-tab row-6 ">57.000.000 Đồng</p>
+                        </div>
+                        <div class="homepage-product-silde-tab row-6 row-xl-2 rw-lg2">
+                            <p><a href="Xe Suzuki GSXR 150.html" class="link-underline-primary">Xem chi tiết </a></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+
     <footer>
         <div class="container-fluid d-flex justify-content-center">
-            <div class="container">
+            <div class="container footer">
                 <div class="row">
                     <!-- Cột 1 : Địa chỉ thông tin liên hệ, mạng xã hội-->
                     <div class="col-lg-4">
                         <div class="footer-info">
-                            <h2>Xe Điện Cần Thơ</h2>
+                            <h2>Xe điện Cần Thơ</h2>
                             <p>
                                 <strong>123A, Ninh Kiều, Cần Thơ</strong> <br>
                                 <strong>+84 09099900</strong>
@@ -209,6 +221,19 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!--copy right-->
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="row">
+                <div class="col-lg-12 copyright">
+                    &copy; Copyright. Design by Hiếu
+                </div>
+
+            </div>
+            <!-- Trờ về đầu trang -->
+            <div class="  return_top ">
+                <a href="Trangchu.html"> <img class="footer-top" src="img/top.png" width="50" height="50" alt="">
             </div>
         </div>
     </footer>

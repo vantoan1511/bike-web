@@ -26,32 +26,32 @@ function toLogin() {
 var itemList = {
     'sp001': {
         'name': 'Xe Rebel Silver',
-        'price': '125.000.000',
+        'price': '125000000',
         'photo': 'img/XeRebelSilver.png'
     },
     'sp002': {
         'name': 'Xe NINJA H2 CARBON',
-        'price': '1.299.000',
+        'price': '1299000',
         'photo': 'img/XeNINJAH2CARBON.png'
     },
     'sp003': {
         'name': 'Xe Victory Vegas 8-Ball',
-        'price': '289.000.000',
+        'price': '289000000',
         'photo': 'img/XeVictoryVegas8Ball.png'
     },
     'sp004': {
         'name': 'Xe KTM 390',
-        'price': '236.000.000',
+        'price': '236000000',
         'photo': 'img/XeKTM.png'
     },
     'sp005': {
         'name': 'Xe Ducait SuperleggeraV4',
-        'price': '3.000.000.000',
+        'price': '3000000000',
         'photo': 'img/XeDucaitSuperleggeraV4.png'
     },
     'sp006': {
         'name': 'Xe Suzuki GSX R150',
-        'price': '57.000.000',
+        'price': '57000000',
         'photo': 'img/XeSuzukiGSX150.png'
     }
 };
@@ -96,13 +96,13 @@ function showCart() {
         thanhtiensp.innerHTML = orderNumber * price + " VND";
         var xoasp = document.createElement("td");
         xoasp.innerHTML = "<a href='#' data-code = '" + code
-            + "' onclick='removeCart(this.dataset.code)'><i class='fa fa-trash icon-pink icon'></i></a>";
+            + "' onclick='removeCart(this.dataset.code)'><i class='fa fa-trash icon-pink toan-icon'></i></a>";
         var tr = document.createElement("tr");
         tr.appendChild(hinhsp);
         tr.appendChild(tensp);
         tr.appendChild(slsp);
         tr.appendChild(giasp);
-        tr.appendChild(thanhtiensp);
+        // tr.appendChild(thanhtiensp);
         tr.appendChild(xoasp);
         var tableBody = document.getElementById("cart-table-item-body");
         tableBody.appendChild(tr);
@@ -123,7 +123,7 @@ function showCart() {
 function removeCart(code) {
     if (typeof window.localStorage[code] != "undefined") {
         window.localStorage.removeItem(code);
-        document.getElementById("cart-table-item-body").getElementsByTagName('tbody')[0].innerHTML = "";
+        document.getElementById("order-table").getElementsByTagName('tbody')[0].innerHTML = "";
         location.reload();
         showCart();
     }
@@ -140,10 +140,12 @@ function getDiscountRate() {
 }
 
 $(document).ready(function () {
-
+    window.onstorage = () => {
+        location.reload();
+        showCart();
+    };
     if (window.location.pathname.includes("giohang.html")) {
         showCart();
-
     }
     if (window.location.pathname.includes("dangnhap.html")) {
         showHiddenPW('input-password', 'password-eye');

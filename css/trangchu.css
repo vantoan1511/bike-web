@@ -52,8 +52,6 @@ body {
 
 
 /* intro */
-
-
 section {
   padding: 5rem 10%;
   padding-right: 0.5rem;
@@ -68,8 +66,6 @@ section {
   -0.5rem 0.5rem 0.5rem #393E46;
   margin-right: 5rem
 }
-
-
 
 article .image img {
   width: 100%;
@@ -95,14 +91,6 @@ article .text p {
   font-weight: 300;
   margin: 1rem 0;
 }
-
-
-
-
-
-
-
-
 
 .thumb{
   width:100%;

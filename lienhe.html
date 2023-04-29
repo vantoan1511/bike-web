@@ -10,42 +10,39 @@
     <!-- bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style/main.css">
-    <script src="style/main.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/lienhe.css">
 
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/trangchu.css">
+        <link rel="stylesheet" href="css/lienhe.css">
 </head>
 
 <body class="toan-body">
 
     <header>
-
-        <div id="header" class="d-flex align-items-center">
+        <div id="header" class="fixed-top d-flex align-items-center">
             <div class="container-fluid  d-flex align-items-center justify-content-lg-around">
-                <h1 class="logo "><a href="Trangchu.html">Xe điện Cần Thơ</a></h1>
+                <h1 class="logo "><a href="Trangchu.html">Thế giới xe</a></h1>
                 <nav class="navbar ">
                     <ul>
                         <li><a class="nav-link " href="Trangchu.html">Trang chủ</a></li>
-                        <li><a class="nav-link " href="sanpham.html">Sản phẩm</a></li>
-                        <li><a class="nav-link " href="gioithieu.html">Giới thiệu</a></li>
+                        <li><a class="nav-link " href="San Pham.html">Sản phẩm</a></li>
                         <li><a class="nav-link " href="lienhe.html">Liên hệ</a></li>
                     </ul>
                 </nav>
-                <div class="d-flex ">
-                    <a class="nav-link" href="giohang.html"><i class="fa fa-shopping-cart"></i></a>
-                    <a class="d-lg-flex btn " href="dangnhap.html">Đăng nhập</a>
+                <div class="d-flex align-items-center">
+                    <a href="giohang.html"><i class="fas fa-shopping-cart"></i></a>
+                    <a class="d-lg-flex btn" href="dangnhap.html">Đăng nhập</a>
                     <a class="d-lg-flex btn" href="dangky.html">Đăng ký</a>
                 </div>
             </div>
         </div>
-
     </header>
     <main class="lienhe">
         <div class="lienhe-top">
@@ -135,8 +132,8 @@
             </form>
         </div>
         <footer>
-            <div class="container-fluid flex justify-content-center">
-                <div class="container">
+            <div class="container-fluid d-flex justify-content-center">
+                <div class="container footer">
                     <div class="row">
                         <!-- Cột 1 : Địa chỉ thông tin liên hệ, mạng xã hội-->
                         <div class="col-lg-4">
@@ -164,12 +161,14 @@
                             </ul>
                         </div>
                         <!-- Cột 3:Giờ mở cửa -->
-                        <div class="col-lg-4 footer-links">
-                            <h4>Giờ mở cửa</h4>
-                            <ul>
-                                <li> Thứ 2-Thứ 7: 7AM-20PM</li>
-                                <li> Chủ nhật: 9AM-20PM</li>
-                            </ul>
+                        <div class="col-lg-4">
+                            <div class="footer-info">
+                                <h4>Giờ mở cửa</h4>
+                                <ul>
+                                    <li> Thứ 2-Thứ 7: 7AM-20PM</li>
+                                    <li> Chủ nhật: 9AM-20PM</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -184,13 +183,12 @@
                 </div>
                 <!-- Trờ về đầu trang -->
                 <div class="  return_top ">
-                    <a href="Trangchu.html"> <img class="footer-top" src="img/top.png" width="80" height="80" alt="">
+                    <a href="Trangchu.html"> <img class="footer-top" src="img/top.png" width="50" height="50" alt="">
                 </div>
             </div>
         </footer>
 
     </main>
-    <script src="js/main.js"></script>
 
 </body>
 

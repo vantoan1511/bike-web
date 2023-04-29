@@ -2,52 +2,55 @@
 
 
 a {
-    color: #000000;
-    text-decoration: none;
-    
-  }
-  
- .main-news a:hover {
-    color: white;
-    text-decoration: none;
-  }
-body {
-    font-family:'Roboto', Helvetica, sans-serif;
-    background: #dbd8d8;
-    color: #000000;
-  }
+  color: #F1F6F9;
+  text-decoration: none;
 
-.carousel-item{
-  height:27rem;
 }
+
+.main-news a:hover {
+  /* color: white; */
+  color: #F1F6F9;
+  text-decoration: underline;
+}
+
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background: #dbd8d8;
+  color: #000000;
+}
+
+.carousel-item {
+  height: 27rem;
+}
+
 /*icon*/
 
-  .icons-container {
-    display: flex;
-    gap: 1.5rem;
-    padding:1rem 10rem;
-    margin-left: 2rem;
+.icons-container {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 10rem;
+  margin-left: 2rem;
 }
 
 .icons-container .icons {
-    background: #eeeeee;
-    display: flex;
-    align-items: center;
-    box-shadow: .2em .2em silver;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    gap: 1rem;
+  background: #eeeeee;
+  display: flex;
+  align-items: center;
+  box-shadow: .2em .2em silver;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .icons-container .icons i {
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    color: #000000;
-    background: #9BA4B5;
-    text-align: center;
-    border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: #000000;
+  background: #9BA4B5;
+  text-align: center;
+  border-radius: 50%;
 }
 
 
@@ -65,7 +68,7 @@ section {
 .image {
   width: 42%;
   box-shadow: -1rem 1rem 0.5rem #393E46,
-  -0.5rem 0.5rem 0.5rem #393E46;
+    -0.5rem 0.5rem 0.5rem #393E46;
   margin-right: 5rem
 }
 
@@ -86,10 +89,12 @@ article .text {
 }
 
 article .text h1 {
+  color: #F1F6F9;
   font-size: 2rem;
   font-weight: 500;
   line-height: 2rem;
 }
+
 article .text p {
   font-size: 1.4rem;
   font-weight: 300;
@@ -104,21 +109,44 @@ article .text p {
 
 
 
-.thumb{
-  width:100%;
+.thumb {
+  width: 100%;
 }
 
-.main-news h3{
+.main-news h3 {
   line-height: 20px;
 }
-.main-news h3 a{
+
+.main-news h3 a {
   font-size: 20px;
   font-weight: 500;
 }
 
-.img-tt{
-  overflow:hidden;
+.img-tt {
+  overflow: hidden;
   border: solid #eeeeee 1px;
   border-radius: 5px;
-  padding:5px;
+  padding: 5px;
+}
+
+
+.trang-chu-main {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--white-color);
+  margin-inline: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2.5rem 1.5rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(5px);
+}
+
+.trang-chu-main h2,
+.trang-chu-main p {
+  color: #F1F6F9;
+}
+
+.content p {
+  color: #212A3E;
 }

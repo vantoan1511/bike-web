@@ -67,7 +67,9 @@ function showCart() {
 }
 
 $(document).ready(function () {
+
+
+    
     showHiddenPW('input-password', 'password-eye');
     showHiddenPW('re-input-password', 're-password-eye');
-    console.log('tét');
 });

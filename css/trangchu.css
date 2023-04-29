@@ -147,6 +147,13 @@ article .text p {
   color: #F1F6F9;
 }
 
-.content p {
+.content p,
+footer a,
+a i {
   color: #212A3E;
+}
+
+footer a:hover {
+  color: #212A3E;
+  text-decoration: underline;
 }

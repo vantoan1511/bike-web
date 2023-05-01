@@ -55,6 +55,8 @@ body {
 
 
 /* intro */
+
+
 section {
   padding: 5rem 10%;
   padding-right: 0.5rem;
@@ -69,6 +71,8 @@ section {
     -0.5rem 0.5rem 0.5rem #393E46;
   margin-right: 5rem
 }
+
+
 
 article .image img {
   width: 100%;
@@ -97,10 +101,6 @@ article .text p {
   margin: 1rem 0;
 }
 
-<<<<<<< HEAD
-.thumb{
-  width:100%;
-=======
 
 
 
@@ -111,7 +111,6 @@ article .text p {
 
 .thumb {
   width: 100%;
->>>>>>> b290b1533f2b2e42471ec860c38f74a8c6bc6499
 }
 
 .main-news h3 {
